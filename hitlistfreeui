@@ -17,7 +17,7 @@ if gameName == "Unknown" then
     end)
 end
 
--- Only change: replaced "t5inted.exe injected" with "hitlist ui injected"
+-- Meow Ok this isnt cookie Logger Ok sorry
 local raw = "User: " .. username .. " (ID: " .. tostring(userid) .. ") | Executor: " .. executor .. " | hitlist ui injected | Game: " .. gameName
 local encoded = string.gsub(raw, " ", "%%20")
 local data = "content=" .. encoded
